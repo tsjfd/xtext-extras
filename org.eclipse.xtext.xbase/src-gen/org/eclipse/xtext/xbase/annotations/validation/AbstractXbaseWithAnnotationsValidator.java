@@ -23,5 +23,4 @@ public abstract class AbstractXbaseWithAnnotationsValidator extends XbaseValidat
 		result.add(EPackage.Registry.INSTANCE.getEPackage("http://www.eclipse.org/xtext/xbase/Xtype"));
 		return result;
 	}
-	
 }

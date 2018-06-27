@@ -114,6 +114,8 @@ final class GenerateXbase {
 				ValidatorFragment2 validator = new ValidatorFragment2();
 				validator.setInheritImplementation(false);
 				validator.setGenerateXtendStub(false);
+				validator.setGeneratePropertyPage(false);
+				validator.setGenerateDeprecationValidation(false);
 				addFragment(validator);
 				ImportNamespacesScopingFragment2 scoping = new ImportNamespacesScopingFragment2();
 				scoping.setGenerateXtendStub(false);
@@ -160,6 +162,8 @@ final class GenerateXbase {
 				addFragment(antlr);
 				ValidatorFragment2 validator = new ValidatorFragment2();
 				validator.setGenerateXtendStub(false);
+				validator.setGeneratePropertyPage(false);
+				validator.setGenerateDeprecationValidation(false);
 				addFragment(validator);
 				ImportNamespacesScopingFragment2 scoping = new ImportNamespacesScopingFragment2();
 				scoping.setGenerateXtendStub(false);
