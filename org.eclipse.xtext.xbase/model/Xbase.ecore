@@ -20,7 +20,11 @@
     <eStructuralFeatures xsi:type="ecore:EReference" name="else" eType="#//XExpression"
         containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="conditionalExpression"
-        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean">
+      <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+        <details key="documentation" value="@since 2.15"/>
+      </eAnnotations>
+    </eStructuralFeatures>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="XSwitchExpression" eSuperTypes="#//XExpression">
     <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
@@ -350,7 +354,11 @@
     <eStructuralFeatures xsi:type="ecore:EReference" name="catchClauses" upperBound="-1"
         eType="#//XCatchClause" containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="resources" upperBound="-1"
-        eType="#//XVariableDeclaration" containment="true"/>
+        eType="#//XVariableDeclaration" containment="true">
+      <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+        <details key="documentation" value="@since 2.15"/>
+      </eAnnotations>
+    </eStructuralFeatures>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="XCatchClause">
     <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">

@@ -116,11 +116,10 @@ public interface XIfExpression extends XExpression
 	/**
 	 * Returns the value of the '<em><b>Conditional Expression</b></em>' attribute.
 	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Conditional Expression</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
 	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * @since 2.15
+	 * <!-- end-model-doc -->
 	 * @return the value of the '<em>Conditional Expression</em>' attribute.
 	 * @see #setConditionalExpression(boolean)
 	 * @see org.eclipse.xtext.xbase.XbasePackage#getXIfExpression_ConditionalExpression()

@@ -108,11 +108,10 @@ public interface XTryCatchFinallyExpression extends XExpression
 	 * Returns the value of the '<em><b>Resources</b></em>' containment reference list.
 	 * The list contents are of type {@link org.eclipse.xtext.xbase.XVariableDeclaration}.
 	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Resources</em>' containment reference list isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
 	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * @since 2.15
+	 * <!-- end-model-doc -->
 	 * @return the value of the '<em>Resources</em>' containment reference list.
 	 * @see org.eclipse.xtext.xbase.XbasePackage#getXTryCatchFinallyExpression_Resources()
 	 * @model containment="true"
