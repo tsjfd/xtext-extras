@@ -86,9 +86,9 @@ public abstract class AbstractBatchTypeResolver implements IBatchTypeResolver {
 		if (resourceContents.isEmpty()) {
 			IFeatureScopeSession session = scopeProvider.newSession(resource);
 			return new EmptyResolvedTypes(session, featureScopes, new StandardTypeReferenceOwner(services, resource));
-		} else {
-			return resolveTypes(resourceContents.get(0), monitor);
 		}
+
+		return resolveTypes(resourceContents.get(0), monitor);
 	}
 
 	/* @NonNull */

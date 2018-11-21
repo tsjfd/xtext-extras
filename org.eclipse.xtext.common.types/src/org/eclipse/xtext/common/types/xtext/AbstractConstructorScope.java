@@ -53,11 +53,11 @@ public abstract class AbstractConstructorScope extends AbstractScope {
 				final Set<IEObjectDescription> result = singleton(
 						EObjectDescription.create(getQualifiedNameConverter().toQualifiedName(qualifiedNameWithDots), object));
 				return result;
-			} else {
-				return Arrays.asList(
-						EObjectDescription.create(getQualifiedNameConverter().toQualifiedName(qualifiedNameWithDots), object),
-						EObjectDescription.create(getQualifiedNameConverter().toQualifiedName(qualifiedNameWithDollar), object));
 			}
+
+			return Arrays.asList(
+					EObjectDescription.create(getQualifiedNameConverter().toQualifiedName(qualifiedNameWithDots), object),
+					EObjectDescription.create(getQualifiedNameConverter().toQualifiedName(qualifiedNameWithDollar), object));
 		}
 		return emptySet();
 	}
